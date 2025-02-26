@@ -1,0 +1,97 @@
+/* Full Page Centering */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Input Fields */
+  input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  /* Input Hover & Focus Effects */
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Sign-up section */
+  .signup-section {
+    margin-top: 20px;
+  }
+  
+  .signup-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .signup-section button {
+    background-color: #28a745;
+  }
+  
+  .signup-section button:hover {
+    background-color: #218838;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

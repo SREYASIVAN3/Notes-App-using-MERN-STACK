@@ -1,0 +1,135 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .noteCard {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .noteHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .noteTitle {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 5px;
+  }
+  
+  /* Edit Button */
+  .editButton {
+    background:black; /* Orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+  
+  .editButton:hover {
+    background: #e68900; /* Darker Orange */
+  }
+  
+  /* Delete Button */
+  .deleteButton {
+    background: black; /* Purple */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+  
+  .deleteButton:hover {
+    background: #512da8; /* Darker Purple */
+  }
+  /* Container for the logout button */
+.logoutContainer {
+  position: absolute; /* Position the button absolutely */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+}
+
+/* Logout button styles */
+.logoutButton {
+  background-color: red; /* Red background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 8px 16px; /* Add padding */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 14px; /* Adjust font size */
+}
+
+/* Hover effect for the logout button */
+.logoutButton:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+  
