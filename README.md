@@ -2,12 +2,19 @@ Notes App (MERN Stack)
 A full-stack Notes App built using the MERN stack (MongoDB, Express, React, Node.js) that allows users to create, edit, delete, and manage their notes securely with authentication.
 
  Features
+ 
 -> User Authentication – Secure login & signup with JWT
+
 -> Create & Manage Notes – Add, edit, and delete notes
+
 -> Rich Text Editor – Format notes for better readability
+
 -> Search & Filter – Easily find notes by keywords
+
 -> Pagination – View notes in a paginated format
+
 -> User Dashboard – Manage personal notes securely
+
 
 Tech Stack
  
