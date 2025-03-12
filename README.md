@@ -19,11 +19,13 @@ A full-stack Notes App built using the MERN stack (MongoDB, Express, React, Node
 Tech Stack
  
 Frontend:
+
 React,
 Bootstrap,
 Context API (State Management)
 
 Backend:
+
 Node.js,
 Express.js,
 MongoDB,
@@ -40,10 +42,12 @@ cd notes-app
 2️.Install Dependencies
 
 Backend
+
 cd backend,
 npm install
 
 Frontend
+
 cd frontend,
 npm install
 
